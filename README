@@ -1,5 +1,5 @@
-Este script revisa la cola de el demonio de deluge (deluged) y si todos los torrents han sido descargados envia una señal de apgado via d-bus y 
-hace el apagado del equipo.
+Este script revisa la cola de el demonio de deluge (deluged) y si todos los torrents han sido descargados envia una señal de apagado via d-bus y 
+hace el shutdown del equipo.
 Este script surge porque la WebUI de deluge no trae esta función, asi que se implemento como script.
 
 Se usa un cron para hacer la ejecución del script
